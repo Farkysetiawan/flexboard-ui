@@ -1,0 +1,32 @@
+/* Palet warna dan efek dasar */
+:root {
+  /* Latar */
+  --surface: #f6f7fb;
+  --surface-darker: #eef0f6;
+
+  /* Glass-card */
+  --glass-bg: hsla(0 0% 100%/.55);
+  --glass-shadow: 0 8px 32px rgba(0 0 0 /.08);
+
+  /* Aksen utama */
+  --primary: #3c5bff;
+  --primary-600: #2844e0;
+  --primary-50:  #ecf0ff;
+
+  /* Teks */
+  --text-main: #15151c;
+  --text-muted: #62646f;
+}
+
+/* Dark-mode (nanti bisa diaktifkan via class="dark") */
+.dark {
+  --surface: #14161f;
+  --surface-darker: #0d0f17;
+  --glass-bg: hsla(222 12% 10%/.55);
+  --glass-shadow: 0 8px 32px rgba(0 0 0 /.55);
+  --primary: #5c7dff;
+  --primary-600: #3c5bff;
+  --primary-50: #1d233e;
+  --text-main: #f1f3ff;
+  --text-muted: #9ca3b5;
+}
